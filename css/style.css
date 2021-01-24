@@ -10858,10 +10858,6 @@ main {
   position: relative;
 }
 
-.landing-container, .aboutUs-container {
-  margin: 0px 5%;
-}
-
 .landing-text {
   padding: 7.5vh 0;
   text-align: center;
@@ -10918,6 +10914,44 @@ main {
 
 .info-end {
   border-radius: 25px 25px 0 0;
+}
+
+@media (max-width: 991.98px) {
+  .landing-mainText {
+    font-size: 25pt;
+  }
+  .info {
+    text-align: center !important;
+    height: auto;
+  }
+  .info2 {
+    padding: 25px 0;
+    margin: 0 auto;
+  }
+  .info-img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .info1-img-container, .info2-img-container {
+    width: 100%;
+    float: none;
+  }
+  .info1-container {
+    padding: 25px 0;
+  }
+  .col-12 {
+    padding: 0;
+  }
+  .row {
+    width: 100%;
+    margin: 0 auto !important;
+    padding: 0 25px;
+  }
+  .info1-text, .info2-text {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /*
